@@ -45,3 +45,5 @@ app.use('/api/v1/cart', cartRouter);
 app.use(globalErrorHandler);
 
 module.exports = { app };
+
+//require('crypto').randomBytes(64).toString('hex');
